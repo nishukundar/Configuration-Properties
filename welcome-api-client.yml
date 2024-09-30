@@ -1,6 +1,6 @@
 #server:
 # port: 1111 
-msg: config server
+msg: config server from welcome1
 
 spring:
   application:
