@@ -1,27 +1,3 @@
-#server:
-# port: 1111 
+
 msg: config server from welcome1
 
-spring:
-  application:
-    name: welcome-api-client
-
- 
- #admin server url
-  boot:
-    admin:
-      client:
-        url: http://localhost:4444/
-    
-#enable the actuator endpoint
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-
-#eureka:
-# client:
-#  serviceUrl:
-#   defaultZone: http://localhost:8761/eureka
